@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #1B244A;
+}
+
+.titles {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('cursed.ttf');
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+#guest-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+}
